@@ -1,0 +1,16 @@
+#Você trabalha na empresa Hermex Log, uma empresa de logística conhecida por seus serviços de entrega. Seu time está trabalhando em um script para otimizar o processo de compactação de arquivos e fazer as entregas de maneira mais eficiente.
+
+Esse script permite ao usuário selecionar um conjunto de arquivos a serem compactados, fornecer o nome do arquivo compactado e o direcionamento para a pasta onde este será armazenado. O script já está quase pronto, mas você percebe que ainda falta uma última peça no código.
+
+Utilizando a passagem de parâmetros, como você pode checar se os arquivos escolhidos para compactação existem no diretório?
+________________________________________________
+arquivos=("$@")
+for arquivo in "${arquivos[@]}"; do
+  if [ ! -e "$arquivo" ]; then
+    echo "Arquivo não encontrado: $arquivo"
+    exit 1
+  fi
+done
+________________________________________________
+Este código está correto pois faz uso correto da passagem de parâmetros e da estrutura de repetição for. 
+Ele passa por cada arquivo informado e, se não existir, exibe a mensagem "Arquivo não encontrado" e encerra o script.
