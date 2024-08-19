@@ -6,14 +6,14 @@ O script deve listar todos os arquivos e diretórios existentes no servidor, em 
 
 Finalmente salvar esse arquivo em um diretório de backup designado.
 Ao realizar uma breve pesquisa em alguns repositórios, você identificou alguns scripts que podem ser usados para realizar essa tarefa. Qual das opções listadas realiza esse procedimento?
-______________________________________________________
+________________________Code______________________________
 ! /bin/bash
 diretorio_backup="/path do diretório/"
 ls "$diretorio_backup"
 arquivo_backup="backup_$(date +%Y%m%d_%H%M%S).tar.gz"
 tar -czf "$arquivo_backup" "$diretorio_backup"
 echo "Backup concluído em $arquivo_backup."
-______________________________________________________
+__________________________________________________________
 
 #O script apresentado realiza a tarefa desejada. 
 Este script lista todos os arquivos e diretórios do diretório de backup, e em seguida gera um arquivo de backup compactado a partir do diretório indicado em $diretorio_backup usando o comando tar. 
