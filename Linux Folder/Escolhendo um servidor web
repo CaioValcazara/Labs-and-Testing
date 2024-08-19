@@ -1,0 +1,10 @@
+#No plano de trabalho dessa semana, você ficou responsável por configurar um servidor que irá hospedar um site de anúncios. 
+Como o servidor já possui uma distribuição Linux instalada e devidamente configurada, você inicia a atividade pesquisando opções de servidor web disponíveis. 
+Pesquisando, percebeu que os melhores são Apache e Nginx, seu desafio consiste em selecionar a opção mais eficiente para as necessidades do conteúdo hospedado.
+
+Considerando que o conteúdo será predominantemente estático e que é esperado um alto volume de tráfego, qual opção de software de servidor web seria mais apropriada? E por quê?
+
+Nginx, pois é especialmente eficiente com conteúdo estático e alta performance.
+
+
+O Nginx é conhecido por sua alta eficiência e performance quando lidando com conteúdo estático e alto volume de tráfego, o que condiz com as necessidades do projeto em questão.
