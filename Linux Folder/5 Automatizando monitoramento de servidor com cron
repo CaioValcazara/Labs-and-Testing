@@ -1,0 +1,4 @@
+Usaria o comando */30 * * * * /caminho/para/monitoramento_nginx.sh
+
+
+Este é o comando correto, ele vai executar o script de monitoramento a cada 30 minutos todos os dias.
