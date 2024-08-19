@@ -1,0 +1,20 @@
+#Você está trabalhando na administração de sistemas em uma empresa de tecnologia. 
+Para facilitar o trabalho, foi solicitado que a automatização tarefas rotineiras e criação scripts eficientes para otimizar a manutenção e a gestão desses servidores. Nesse sentido, você precisa:
+
+Criar um script que será executado automaticamente a cada 24 horas para fazer o backup dos dados críticos da empresa;
+O script deve listar todos os arquivos e diretórios existentes no servidor, em seguida, criar um arquivo TAR com um nome baseado na data e hora atuais;
+
+Finalmente salvar esse arquivo em um diretório de backup designado.
+Ao realizar uma breve pesquisa em alguns repositórios, você identificou alguns scripts que podem ser usados para realizar essa tarefa. Qual das opções listadas realiza esse procedimento?
+________________________Code______________________________
+! /bin/bash
+diretorio_backup="/path do diretório/"
+ls "$diretorio_backup"
+arquivo_backup="backup_$(date +%Y%m%d_%H%M%S).tar.gz"
+tar -czf "$arquivo_backup" "$diretorio_backup"
+echo "Backup concluído em $arquivo_backup."
+__________________________________________________________
+
+#O script apresentado realiza a tarefa desejada. 
+Este script lista todos os arquivos e diretórios do diretório de backup, e em seguida gera um arquivo de backup compactado a partir do diretório indicado em $diretorio_backup usando o comando tar. 
+O arquivo de backup é nomeado com base na data e hora atuais.
