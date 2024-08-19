@@ -1,0 +1,34 @@
+#Durante a sua experiência de trabalho em uma empresa de segurança tecnológica, você ficou responsável por ajustar um script de compactação. 
+Você já adicionou a funcionalidade de descompactação de arquivos e o script permite que o usuário escolha a operação que deseja realizar. 
+
+O script atual está da seguinte maneira:
+
+case "$operacao" in
+  "compactar")
+    read -p "Nome do arquivo de saída (.tar.gz): " arquivo_saida
+    read -p "Lista de arquivos a compactar (separados por espaço): " arquivos
+    tar -czf "$arquivo_saida" $arquivos
+    echo "Arquivos compactados com sucesso em $arquivo_saida."
+    ;;
+ "descompactar")
+    read -p "Nome do arquivo a descompactar (.tar.gz): " arquivo
+    read -p "Diretório de destino para a descompactação: " diretorio_destino
+    if [ ! -e "$arquivo" ]; then
+      echo "Arquivo não encontrado: $arquivo"
+      exit 1
+    fi
+    tar -xzf "$arquivo" -C "$diretorio_destino"
+    echo "Arquivo descompactado com sucesso em $diretorio_destino."
+    ;;
+esac
+
+#Entretanto, você percebeu que esse script não trata as tentativas de realizar operações inexistentes.
+
+*)
+    echo "Operação inválida."
+    echo "Uso: $0 (compactar|descompactar)"
+    exit 1
+    ;;
+
+A opção * em uma estrutura case em um script bash é usada para capturar todos os outros casos que não foram previamente especificados.
+
