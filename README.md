@@ -1,2 +1,2 @@
-# Let-s-code
-This repository amms to share some knoledge thrgh out my career
+# Labs and testing env
+This repository amms to share some knowledge tout my career
