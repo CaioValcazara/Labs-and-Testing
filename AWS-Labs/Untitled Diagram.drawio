@@ -75,7 +75,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SAA-VPC-with-NATgateway" id="IwJ9zzo7nB5nqcxY7UEQ">
-    <mxGraphModel dx="2613" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="RMYgf1gU0LSy4vA4px4j-0" />
         <mxCell id="RMYgf1gU0LSy4vA4px4j-1" parent="RMYgf1gU0LSy4vA4px4j-0" />
@@ -106,6 +106,9 @@
         <mxCell id="RMYgf1gU0LSy4vA4px4j-10" value="&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;Public subnet 02&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;my-subnet-02 (10.0.2.0/24)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="RMYgf1gU0LSy4vA4px4j-3" vertex="1">
           <mxGeometry x="440" y="80" width="320" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="AmAR9HV5Js4tl-uJsyor-0" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ALN / NLB Load Balancers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RMYgf1gU0LSy4vA4px4j-10">
+          <mxGeometry x="-4.5" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="RMYgf1gU0LSy4vA4px4j-12" value="Public subnet 04&lt;div&gt;&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;my-subnet-04 (10.0.4.0/24)&lt;/font&gt;&lt;/div&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="RMYgf1gU0LSy4vA4px4j-3" vertex="1">
           <mxGeometry x="440" y="360" width="320" height="160" as="geometry" />
         </mxCell>
@@ -114,6 +117,9 @@
         </mxCell>
         <mxCell id="JKAq37pRKRRwqk7xGQGr-0" value="NAT Gateway" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.nat_gateway;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="RMYgf1gU0LSy4vA4px4j-12">
           <mxGeometry x="268.4" y="55.5" width="51.6" height="41.699999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="AmAR9HV5Js4tl-uJsyor-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ALN / NLB Load Balancers&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RMYgf1gU0LSy4vA4px4j-12">
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RMYgf1gU0LSy4vA4px4j-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="RMYgf1gU0LSy4vA4px4j-3" source="RMYgf1gU0LSy4vA4px4j-4" target="RMYgf1gU0LSy4vA4px4j-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
