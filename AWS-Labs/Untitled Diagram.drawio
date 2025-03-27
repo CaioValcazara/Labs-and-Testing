@@ -194,11 +194,17 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="yqKzIyvnOJ9Fa866wIdB" name="Página-4">
+  <diagram id="yqKzIyvnOJ9Fa866wIdB" name="VPC-Peering">
     <mxGraphModel dx="816" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="daa-4X5FH20L468R4IFj-1" value="us-west-2" style="shape=mxgraph.ibm.box;prType=region;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#919191;strokeWidth=2;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="720" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="daa-4X5FH20L468R4IFj-2" value="VPC-oregon&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" vertex="1" parent="daa-4X5FH20L468R4IFj-1">
+          <mxGeometry x="40" y="40" width="640" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
