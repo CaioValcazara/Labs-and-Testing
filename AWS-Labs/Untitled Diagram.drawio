@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.3" pages="4">
   <diagram name="SAA-VPC" id="udaQq8og9OzFMUcEktGX">
     <mxGraphModel dx="2018" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="SAA-VPC-with-NATgateway" id="IwJ9zzo7nB5nqcxY7UEQ">
-    <mxGraphModel dx="2853" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="RMYgf1gU0LSy4vA4px4j-0" />
         <mxCell id="RMYgf1gU0LSy4vA4px4j-1" parent="RMYgf1gU0LSy4vA4px4j-0" />
@@ -131,7 +131,7 @@
           <mxGeometry x="880" y="260" width="37.5" height="47.400000000000006" as="geometry" />
         </mxCell>
         <mxCell id="JKAq37pRKRRwqk7xGQGr-3" value="NAT Gateway" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.nat_gateway;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="RMYgf1gU0LSy4vA4px4j-3">
-          <mxGeometry x="708.4" y="120" width="51.6" height="41.699999999999996" as="geometry" />
+          <mxGeometry x="708.4" y="135.5" width="51.6" height="41.699999999999996" as="geometry" />
         </mxCell>
         <mxCell id="JKAq37pRKRRwqk7xGQGr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.554;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="RMYgf1gU0LSy4vA4px4j-3" source="RMYgf1gU0LSy4vA4px4j-16" target="JKAq37pRKRRwqk7xGQGr-3">
           <mxGeometry relative="1" as="geometry">
@@ -191,6 +191,14 @@
             <mxPoint x="650" y="-595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yqKzIyvnOJ9Fa866wIdB" name="Página-4">
+    <mxGraphModel dx="816" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
